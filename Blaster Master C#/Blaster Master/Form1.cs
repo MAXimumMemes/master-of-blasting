@@ -913,7 +913,7 @@ namespace BlasterMaster
                                             case 1: //:: x1 fire ::
 
                                                 // Create new instances
-                                                playerbullet[i, 0] = new clsPlayerBullet(x - 2, y);
+                                                playerbullet[i, 0] = new clsPlayerMyBullet(x - 2, y);
 
                                                 // Bail out
                                                 bailOut = true;
